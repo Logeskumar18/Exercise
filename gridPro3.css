@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin-inline: 30px;
+    
+}
+.hleft{
+    text-align: center;
+    margin-top: 10px;
+    color: skyblue;
+}
+.hright{
+    margin-top: 10px;
+}
+.hright ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    flex-basis: 100px;
+    list-style: none;
+}
+li:last-child{
+    background-color: #0087c8;
+    text-align: center;
+    height: 30px;
+    border-radius: 30px;
+    padding-top: 5px;
+    color: white;
+}
+main{
+    display: grid;
+    place-content: center;
+    margin-inline: 30px;
+    padding: 106px;
+    row-gap: 20px;
+    text-align: center;
+}
+main h1{
+    color: #003c5a;
+}
+main a{
+    background-color: #0087c8;
+    height: 30px;
+    width: 126px;
+    margin-inline: auto;
+    text-decoration: none;
+    border-radius: 9px;
+    padding-top: 5px;
+    color: white;
+}
+main h5{
+    opacity: 0.5;
+    font-size: 16px;
+}
+section{
+    display: flex;
+    margin-inline: 30px;
+    justify-content: space-evenly;
+    
+}
+section .box{
+    max-width: 175px;
+    height: 200px;
+    box-shadow: 10px 5px 5px gray;
+    display: grid;
+    color: #0087c8;
+    flex-shrink: 1;
+}
+.box i{
+    padding: 5px 10px;
+    font-size: 25px;
+}
+.box p{
+    color: black;
+    opacity: 0.6;
+}

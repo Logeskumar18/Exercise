@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.container{
+    width: 90vw;
+    margin-inline: auto;
+    height: 80vh;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: space-evenly;
+}
+
+.box{
+    border: 1px solid goldenrod;
+    width: 25vw;
+    height: 200px;
+    overflow: hidden;
+}
+.box h1{
+    background: wheat;
+    text-align: center;
+}
+
+.four,.five{ 
+    background-color: darkcyan;
+    flex-shrink: 1;
+    width: 40vw;
+}

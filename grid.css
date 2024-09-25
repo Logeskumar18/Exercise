@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px;
+   
+}
+.grid{
+    border: 2px groove brown;
+    padding: 10px;
+}
+p{
+    
+}
+.grid:nth-child(odd){
+    background-color: aqua;
+}
+.grid:nth-child(even){
+    background: rebeccapurple;
+}
+.grid:nth-child(1){
+    grid-column: 1/4;
+}
+
+.grid:nth-child(5){
+    grid-column: 1/4;
+}
+h1{
+    text-align: center;
+}

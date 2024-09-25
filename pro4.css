@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+body{
+    background-color: aqua;
+}
+
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    margin-inline: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center
+}
+.box{
+    width: 80%;
+    height: 50px;
+    background-color: gold;
+    border-radius: 50px;
+    ;
+}

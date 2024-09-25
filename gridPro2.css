@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "head head head head head"
+        "side main main main side"
+        "side main main main side"
+        "foot foot foot foot foot";
+}
+header, aside, footer, main, nav{
+    border: 1px solid red;
+}
+
+header{
+    grid-area: head;
+}
+nav{
+    grid-area: nav;
+}
+aside{
+    grid-area: side;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: foot;
+}

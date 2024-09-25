@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    border: 2px solid goldenrod;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 10px;
+}
+nav h2{
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+   
+}
+ul{
+    list-style-position: none;
+}
+li{
+    font-size: 1.5em;
+    padding: 15px;
+    border-top: 2px solid black;
+
+}
+li:hover{
+    background-color: gray;
+}
+li:last-child:hover{
+    border-radius: 10px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .outer{
+            width: 80vw auto;
+            border: 2px solid black;
+            height: 100vh;
+        }
+        .inner{
+            width: 60vw auto;
+            border: 2px solid black;
+            height: 80vh;
+            margin: 100px;
+        }
+        .box{
+            width: 20vh;
+            height: 20vh;
+            border: 2px solid red;
+        }
+        .ab{
+            background-color: aqua;
+            position: absolute;
+            top: 0px;
+            left: 20px;
+            z-index: 5;
+        }
+        .re{
+            background-color: blueviolet;
+            position: relative;
+            top: 50px;
+            left: 200px;
+        }
+        .fi{
+            background-color: brown;
+            position: fixed;
+            top: 50px;
+            left: 20px;
+            z-index: 0;
+        }
+        .st{
+            background-color: chartreuse;
+            position: sticky;
+            top: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner">
+            <div class="content">
+                <div class="box ab"></div>
+                <div class="box re"></div>
+                <div class="box st"></div>
+                <div class="box fi"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
